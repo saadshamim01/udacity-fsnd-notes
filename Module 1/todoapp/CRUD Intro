@@ -1,0 +1,8 @@
+#Creating CRUD App
+
+User Wants  Relational Database  CRM
+
+Create        Insert            db.session.add(user1)
+Read          Select            User.query.all()
+Update        Update            user1.name = 'Hello World'
+Delete        Delete            db.session.delete(user1)
